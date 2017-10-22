@@ -1,0 +1,29 @@
+{
+  "name": "jm-util",
+  "version": "1.0.0",
+  "description": "工具包",
+  "main": "./js/base.js",
+  "scripts": {
+    "test": "jest --watch",
+    "coverage": "jest --coverage",
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMHello/jmUtil.git"
+  },
+  "author": "jm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JMHello/jmUtil/issues"
+  },
+  "homepage": "https://github.com/JMHello/jmUtil#readme",
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "jest": "^21.2.1",
+    "webpack": "^3.8.1"
+  }
+}
